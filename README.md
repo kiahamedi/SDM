@@ -1,4 +1,5 @@
 # SDM
+![Alt text](https://raw.githubusercontent.com/kiahamedi/SDM/master/screenshot.png "Optional title")
 Simple Download Manager</br>
 version 1.0.0
 
