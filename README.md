@@ -17,6 +17,12 @@ run with this command:</br>
 -e for end time download</br>
 -l your download link</br>
 
+
+# Notify
+insttall notify-send for send notification when download complated</br>
+`sudo apt install libnotify-bin`
+
+
 # ThankYou
 thank you alireza amirsamimi 
 you can see this tutorial for write bash script</br>
