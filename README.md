@@ -25,7 +25,7 @@ install notify-send for send notification when download complated</br>
 
 
 # ThankYou
-thank you alireza amirsamimi 
+thank you alireza amirsamimi</br>
 you can see this tutorial for write bash script</br>
 `http://amirsamimi.ir/bash_tutorials/`
 
