@@ -52,7 +52,8 @@ endTime(){
 	done
 	killall aria2c
 }
-clear
+#for clear page when use sdm
+#clear 
 trap clearFile exit
 pid="$$"
 while getopts "s:e:l:vh" options;do
