@@ -28,13 +28,13 @@ startTime(){
 	sigma_time=`sigmaTime $time`
 	dateTime
 	while [ "$sigma_date" != "$sigma_time" ];do
-		echo $((sigma_time - sigma_date)) "mimutes until start!"
+		echo $((sigma_time - sigma_date)) "minutes until start!"
 		sleep 20
 		dateTime
 	done
 }
 downloadFunction(){
-	aria2c -c -x 8 -s 8 -k 1M "$link"
+	aria2c -c -x 16 -s 16 -k 1M "$link"
 	notify-send "download completed"
 	echo "1" > /tmp/"$pid".txt
 }
