@@ -55,7 +55,7 @@ endTime(){
 clear
 trap clearFile exit
 pid="$$"
-while getopts "s:e:l:v" options;do
+while getopts "s:e:l:vh" options;do
 	case "$options" in 
 		s)
 			start_time_input=${OPTARG} ;;
@@ -73,39 +73,23 @@ while getopts "s:e:l:v" options;do
 			echo "version 1.0.0"
 			exit
 			;;
+		h)
+			echo "SDM"
+			echo "Version 1.0.0"
+			echo "Simple Download Manager"
+			echo "source: https://github.com/kiahamedi/SDM/"
+			echo "Developer: Kia Hamedi"
+			echo "Email: kia.arta9793@gmail.com"
+			echo "  "
+			echo "Run:"
+			echo "		sdm -s 12:00 -e 04:00 -l 'http://yourlink'"
+			echo "		sdm -l 'http://yourlink'"
+			echo "  "
+			exit
+			;;
 			
 	esac
 done
-
-if [ "$1" = "-h" ] ; then
-  echo "SDM"
-  echo "Version 1.0.0"
-  echo "Simple Download Manager"
-  echo "source: https://github.com/kiahamedi/SDM/"
-  echo "Developer: Kia Hamedi"
-  echo "Email: kia.arta9793@gmail.com"
-  echo "  "
-  echo "Run:"
-  echo "		sdm -s 12:00 -e 04:00 -l 'http://yourlink'"
-  echo "		sdm -l 'http://yourlink'"
-  echo "  "
-  exit 0
-fi
-
-if [ "$1" = "--help" ] ; then
-  echo "SDM"
-  echo "Version 1.0.0"
-  echo "Simple Download Manager"
-  echo "source: https://github.com/kiahamedi/SDM/"
-  echo "Developer: Kia Hamedi"
-  echo "Email: kia.arta9793@gmail.com"
-  echo "  "
-  echo "Run:"
-  echo "		sdm -s 12:00 -e 04:00 -l 'http://yourlink'"
-  echo "		sdm -l 'http://yourlink'"
-  echo "  "
-  exit 0
-fi
 
 
 if [ ! -z "$start_time_input" ];then
