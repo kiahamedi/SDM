@@ -5,13 +5,13 @@ version 1.0.0
 
 # Usage
 To use, just download the script and treat it like a script Enough if you do not have the executable, give it the executive with the following command:</br>
-`chmod +x sdm`
+`chmod +x sdm`</br>
 </br>
 and copy scipt into bin:</br>
-`cp sdm /usr/local/bin/`
+`cp sdm /usr/local/bin/`</br>
 </br>
 run with this command:</br>
-`sdm -s 12:00 -e 04:00 -l "http://yourlink"`
+`sdm -s 12:00 -e 04:00 -l "http://yourlink"`</br>
 </br>
 -s for start time download</br>
 -e for end time download</br>
