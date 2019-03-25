@@ -20,7 +20,7 @@ run with this command:</br>
 
 
 # Notify
-insttall notify-send for send notification when download complated</br>
+install notify-send for send notification when download complated</br>
 `sudo apt install libnotify-bin`
 
 
