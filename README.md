@@ -18,6 +18,11 @@ run with this command:</br>
 -e for end time download</br>
 -l your download link</br>
 
+# Install on ArchLinux
+for install on arch linux just use this command:</br>
+install: `yaourt -S sdm-git`</br>
+remove: `sudo pacman -R sdm-git`</br>
+</br>
 
 # Notify
 install notify-send for send notification when download complated</br>
