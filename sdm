@@ -96,7 +96,6 @@ while getopts "s:e:l:vh" options;do
 			echo "you can see this tutorial for write bash script:"
 			echo "	http://amirsamimi.ir/bash_tutorials/"
 			exit
-			exit
 			;;
 			
 	esac
